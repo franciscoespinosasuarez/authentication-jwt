@@ -1,3 +1,102 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
+body {
+  background-color: #dbd4ac;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #a2431c;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ------------------FORMULARIO----------------------- */
+form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #8ac8ba;
+  padding: 10px 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 3px 9px 5px rgba(59, 59, 59, 0.55);
+  box-shadow: 2px 3px 9px 5px rgba(59, 59, 59, 0.55);
+  margin: 50px auto;;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  margin: 10px 0;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.submit{
+  background-color: #db9537;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 15px;
+  border: none;
+}
+
+.submit:hover, button:hover{
+    background-color: #a2431c;
+}
+
+button{
+    background-color: #db9537;
+    margin: 20px 0;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+}
+
+.private{
+text-align: center;
+}
+
+
+/* ------------------MENSAJES----------------------- */
+
+
+.mensaje{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: #BB0116;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+
+}
+
+.mensaje-error{
+    background-color: #BB0116;
+}
+.mensaje-exito{
+    background-color: #587119;
+}
